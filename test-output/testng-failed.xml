@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BestBuyAPIPlayground]">
+  <test name="ProductAPIs(failed)">
+    <groups>
+      <run>
+        <exclude name="sequential"/>
+        <exclude name="broken"/>
+        <exclude name="ignore"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.n26.tests.FailTestCase">
+        <methods>
+          <include name="startTest"/>
+          <include name="closeDriver"/>
+          <include name="testFailTestCase" invocation-numbers="0"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.n26.tests.FailTestCase -->
+    </classes>
+  </test> <!-- ProductAPIs(failed) -->
+</suite> <!-- Failed suite [BestBuyAPIPlayground] -->

@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BestBuyAPIPlayground">
+              <span class="suite-name border-failed">BestBuyAPIPlayground</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BestBuyAPIPlayground">
+                    <span>C:\Users\pkuma\Desktop\ProjectN\RestAPIFramework-master\src\test\java\com\n26\tests\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BestBuyAPIPlayground">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BestBuyAPIPlayground">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BestBuyAPIPlayground">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BestBuyAPIPlayground">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BestBuyAPIPlayground">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BestBuyAPIPlayground">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BestBuyAPIPlayground" class="hide-methods failed suite-BestBuyAPIPlayground"> (hide)</a> <!-- hide-methods failed suite-BestBuyAPIPlayground -->
+                      <a href="#" panel-name="suite-BestBuyAPIPlayground" class="show-methods failed suite-BestBuyAPIPlayground"> (show)</a> <!-- show-methods failed suite-BestBuyAPIPlayground -->
+                    </span>
+                    <div class="method-list-content failed suite-BestBuyAPIPlayground">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BestBuyAPIPlayground" title="com.n26.tests.FailTestCase" hash-for-method="testFailTestCase({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)">testFailTestCase({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BestBuyAPIPlayground -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BestBuyAPIPlayground" class="hide-methods passed suite-BestBuyAPIPlayground"> (hide)</a> <!-- hide-methods passed suite-BestBuyAPIPlayground -->
+                      <a href="#" panel-name="suite-BestBuyAPIPlayground" class="show-methods passed suite-BestBuyAPIPlayground"> (show)</a> <!-- show-methods passed suite-BestBuyAPIPlayground -->
+                    </span>
+                    <div class="method-list-content passed suite-BestBuyAPIPlayground">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BestBuyAPIPlayground" title="com.n26.tests.CreateAndDeleteProduct" hash-for-method="testCreateAndDeleteProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)">testCreateAndDeleteProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BestBuyAPIPlayground" title="com.n26.tests.CreateAndDeleteProduct" hash-for-method="testCreateAndDeleteProduct({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...)">testCreateAndDeleteProduct({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BestBuyAPIPlayground" title="com.n26.tests.CreateAndGetProduct" hash-for-method="testCreateAndGetProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)">testCreateAndGetProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BestBuyAPIPlayground" title="com.n26.tests.CreateAndVerifyProduct" hash-for-method="testCreateAndVerifyProduct({Description=Construction App, Type=Construction, Image=https://www.n26.com/image3, Url=https://www....)">testCreateAndVerifyProduct({Description=Construction App, Type=Construction, Image=https://www.n26.com/image3, Url=https://www....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BestBuyAPIPlayground" title="com.n26.tests.CreateAndVerifyProduct" hash-for-method="testCreateAndVerifyProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image4, Url=https://www.n26.com, U...)">testCreateAndVerifyProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image4, Url=https://www.n26.com, U...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BestBuyAPIPlayground" title="com.n26.tests.CreateAndVerifyProduct" hash-for-method="testCreateAndVerifyProduct({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...)">testCreateAndVerifyProduct({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BestBuyAPIPlayground" title="com.n26.tests.CreateAndVerifyProduct" hash-for-method="testCreateAndVerifyProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)">testCreateAndVerifyProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BestBuyAPIPlayground" title="com.n26.tests.CreatePatchAndVerifyProduct" hash-for-method="testCreatePatchAndVerifyProduct({NewModel=2013.0, NewManufacturer=N26, Upc=Example, NewType=Bankingx, Shipping=80.0, Name=Product1, ...)">testCreatePatchAndVerifyProduct({NewModel=2013.0, NewManufacturer=N26, Upc=Example, NewType=Bankingx, Shipping=80.0, Name=Product1, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BestBuyAPIPlayground" title="com.n26.tests.CreatePatchAndVerifyProduct" hash-for-method="testCreatePatchAndVerifyProduct({NewModel=2013.0, NewManufacturer=N26, Upc=Example, NewType=Hotelx, Shipping=98.0, Name=Product2, Ne...)">testCreatePatchAndVerifyProduct({NewModel=2013.0, NewManufacturer=N26, Upc=Example, NewType=Hotelx, Shipping=98.0, Name=Product2, Ne...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BestBuyAPIPlayground" title="com.n26.tests.FailTestCase" hash-for-method="testFailTestCase({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...)">testFailTestCase({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BestBuyAPIPlayground -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BestBuyAPIPlayground" class="panel BestBuyAPIPlayground">
+          <div class="suite-BestBuyAPIPlayground-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.n26.tests.FailTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailTestCase({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)">
+                  </a> <!-- testFailTestCase({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...) -->
+                  <span class="method-name">testFailTestCase</span>
+                  <span class="parameters">({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, Upc=Example, Model=2013.0, Price=250.0, ProductNameToVerify=Product2, Manufacturer=N26, Name=Product1, Shipping=80.0})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Product name suppose to be: Product1 expected [Product2] but found [Product1]
+	at com.n26.tests.FailTestCase.testFailTestCase(FailTestCase.java:32)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BestBuyAPIPlayground-class-failed -->
+          <div class="suite-BestBuyAPIPlayground-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.n26.tests.CreatePatchAndVerifyProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreatePatchAndVerifyProduct({NewModel=2013.0, NewManufacturer=N26, Upc=Example, NewType=Bankingx, Shipping=80.0, Name=Product1, ...)">
+                  </a> <!-- testCreatePatchAndVerifyProduct({NewModel=2013.0, NewManufacturer=N26, Upc=Example, NewType=Bankingx, Shipping=80.0, Name=Product1, ...) -->
+                  <span class="method-name">testCreatePatchAndVerifyProduct</span>
+                  <span class="parameters">({NewModel=2013.0, NewManufacturer=N26, Upc=Example, NewType=Bankingx, Shipping=80.0, Name=Product1, NewDescriptior=Banking APP, NewImage=https://www.n26.com/image1, Type=Banking, Model=2013.0, NewUpc=Examplex, NewShipping=80.0, Url=https://www.n26.com, NewPrice=250.0, Manufacturer=N26, Image=https://www.n26.com/image1, Description=Banking APP, NewUrl=https://www.n26.com, NewName=Productx, Price=250.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreatePatchAndVerifyProduct({NewModel=2013.0, NewManufacturer=N26, Upc=Example, NewType=Hotelx, Shipping=98.0, Name=Product2, Ne...)">
+                  </a> <!-- testCreatePatchAndVerifyProduct({NewModel=2013.0, NewManufacturer=N26, Upc=Example, NewType=Hotelx, Shipping=98.0, Name=Product2, Ne...) -->
+                  <span class="method-name">testCreatePatchAndVerifyProduct</span>
+                  <span class="parameters">({NewModel=2013.0, NewManufacturer=N26, Upc=Example, NewType=Hotelx, Shipping=98.0, Name=Product2, NewDescriptior=Banking APP, NewImage=https://www.n26.com/image1, Type=Hotel, Model=2018.0, NewUpc=Examplex, NewShipping=80.0, Url=https://www.n26.com, NewPrice=250.0, Manufacturer=N26, Image=https://www.n26.com/image1, Description=Hotel APP, NewUrl=https://www.n26.com, NewName=Productx, Price=560.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BestBuyAPIPlayground-class-passed -->
+          <div class="suite-BestBuyAPIPlayground-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.n26.tests.CreateAndGetProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndGetProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)">
+                  </a> <!-- testCreateAndGetProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...) -->
+                  <span class="method-name">testCreateAndGetProduct</span>
+                  <span class="parameters">({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, Upc=Example, Model=2013.0, Price=250.0, Manufacturer=N26, Name=Product1, Shipping=80.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BestBuyAPIPlayground-class-passed -->
+          <div class="suite-BestBuyAPIPlayground-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.n26.tests.FailTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailTestCase({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...)">
+                  </a> <!-- testFailTestCase({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...) -->
+                  <span class="method-name">testFailTestCase</span>
+                  <span class="parameters">({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc=Example, Model=2014.0, Price=780.0, ProductNameToVerify=Product2, Manufacturer=N27, Name=Product2, Shipping=30.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BestBuyAPIPlayground-class-passed -->
+          <div class="suite-BestBuyAPIPlayground-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.n26.tests.CreateAndVerifyProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndVerifyProduct({Description=Construction App, Type=Construction, Image=https://www.n26.com/image3, Url=https://www....)">
+                  </a> <!-- testCreateAndVerifyProduct({Description=Construction App, Type=Construction, Image=https://www.n26.com/image3, Url=https://www....) -->
+                  <span class="method-name">testCreateAndVerifyProduct</span>
+                  <span class="parameters">({Description=Construction App, Type=Construction, Image=https://www.n26.com/image3, Url=https://www.n26.com, Upc=Example, Model=2015.0, Price=550.0, Manufacturer=N28, Name=Product3, Shipping=130.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndVerifyProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image4, Url=https://www.n26.com, U...)">
+                  </a> <!-- testCreateAndVerifyProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image4, Url=https://www.n26.com, U...) -->
+                  <span class="method-name">testCreateAndVerifyProduct</span>
+                  <span class="parameters">({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image4, Url=https://www.n26.com, Upc=Example, Model=2016.0, Price=960.0, Manufacturer=N29, Name=Product4, Shipping=300.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndVerifyProduct({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...)">
+                  </a> <!-- testCreateAndVerifyProduct({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...) -->
+                  <span class="method-name">testCreateAndVerifyProduct</span>
+                  <span class="parameters">({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc=Example, Model=2014.0, Price=780.0, Manufacturer=N27, Name=Product2, Shipping=30.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndVerifyProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)">
+                  </a> <!-- testCreateAndVerifyProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...) -->
+                  <span class="method-name">testCreateAndVerifyProduct</span>
+                  <span class="parameters">({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, Upc=Example, Model=2013.0, Price=250.0, Manufacturer=N26, Name=Product1, Shipping=80.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BestBuyAPIPlayground-class-passed -->
+          <div class="suite-BestBuyAPIPlayground-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.n26.tests.CreateAndDeleteProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndDeleteProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)">
+                  </a> <!-- testCreateAndDeleteProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...) -->
+                  <span class="method-name">testCreateAndDeleteProduct</span>
+                  <span class="parameters">({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, Upc=Example, Model=2013.0, Price=250.0, Manufacturer=N26, Name=Product1, Shipping=80.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndDeleteProduct({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...)">
+                  </a> <!-- testCreateAndDeleteProduct({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...) -->
+                  <span class="method-name">testCreateAndDeleteProduct</span>
+                  <span class="parameters">({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc=Example, Model=2014.0, Price=780.0, Manufacturer=N27, Name=Product2, Shipping=30.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BestBuyAPIPlayground-class-passed -->
+        </div> <!-- panel BestBuyAPIPlayground -->
+        <div panel-name="test-xml-BestBuyAPIPlayground" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\pkuma\Desktop\ProjectN\RestAPIFramework-master\src\test\java\com\n26\tests\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; configfailurepolicy=&quot;continue&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;BestBuyAPIPlayground&quot;&gt;
+  &lt;test name=&quot;ProductAPIs&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;sequential&quot;/&gt;
+        &lt;exclude name=&quot;broken&quot;/&gt;
+        &lt;exclude name=&quot;ignore&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.n26.tests.*&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.n26.tests.CreateAndDeleteProduct&quot;/&gt;
+      &lt;class name=&quot;com.n26.tests.CreateAndGetProduct&quot;/&gt;
+      &lt;class name=&quot;com.n26.tests.CreateAndVerifyProduct&quot;/&gt;
+      &lt;class name=&quot;com.n26.tests.CreatePatchAndVerifyProduct&quot;/&gt;
+      &lt;class name=&quot;com.n26.tests.FailTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ProductAPIs --&gt;
+&lt;/suite&gt; &lt;!-- BestBuyAPIPlayground --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BestBuyAPIPlayground" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BestBuyAPIPlayground</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ProductAPIs (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BestBuyAPIPlayground" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BestBuyAPIPlayground</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BestBuyAPIPlayground" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BestBuyAPIPlayground</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BestBuyAPIPlayground');
+function tableData_BestBuyAPIPlayground() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCreateAndDeleteProduct')
+data.setCell(0, 2, 'com.n26.tests.CreateAndDeleteProduct')
+data.setCell(0, 3, 2087);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCreateAndDeleteProduct')
+data.setCell(1, 2, 'com.n26.tests.CreateAndDeleteProduct')
+data.setCell(1, 3, 125);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCreatePatchAndVerifyProduct')
+data.setCell(2, 2, 'com.n26.tests.CreatePatchAndVerifyProduct')
+data.setCell(2, 3, 76);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCreatePatchAndVerifyProduct')
+data.setCell(3, 2, 'com.n26.tests.CreatePatchAndVerifyProduct')
+data.setCell(3, 3, 72);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCreateAndGetProduct')
+data.setCell(4, 2, 'com.n26.tests.CreateAndGetProduct')
+data.setCell(4, 3, 68);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCreateAndVerifyProduct')
+data.setCell(5, 2, 'com.n26.tests.CreateAndVerifyProduct')
+data.setCell(5, 3, 56);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testFailTestCase')
+data.setCell(6, 2, 'com.n26.tests.FailTestCase')
+data.setCell(6, 3, 48);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCreateAndVerifyProduct')
+data.setCell(7, 2, 'com.n26.tests.CreateAndVerifyProduct')
+data.setCell(7, 3, 44);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCreateAndVerifyProduct')
+data.setCell(8, 2, 'com.n26.tests.CreateAndVerifyProduct')
+data.setCell(8, 3, 44);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCreateAndVerifyProduct')
+data.setCell(9, 2, 'com.n26.tests.CreateAndVerifyProduct')
+data.setCell(9, 3, 42);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testFailTestCase')
+data.setCell(10, 2, 'com.n26.tests.FailTestCase')
+data.setCell(10, 3, 36);
+window.suiteTableData['BestBuyAPIPlayground']= { tableData: data, tableDiv: 'times-div-BestBuyAPIPlayground'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-BestBuyAPIPlayground">
+              </div> <!-- times-div-BestBuyAPIPlayground -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BestBuyAPIPlayground" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BestBuyAPIPlayground</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BestBuyAPIPlayground" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BestBuyAPIPlayground" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.n26.tests.CreateAndDeleteProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndDeleteProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=testCreateAndDeleteProduct status=SUCCESS method=CreateAndDeleteProduct.testCreateA...)</span>
+                <span class="method-start">2107 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">2107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndDeleteProduct({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...)</span>
+                <span class="method-start">2107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=testCreateAndDeleteProduct status=SUCCESS method=CreateAndDeleteProduct.testCreateA...)</span>
+                <span class="method-start">2232 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">2232 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.n26.tests.CreateAndGetProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">2612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndGetProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)</span>
+                <span class="method-start">2612 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=testCreateAndGetProduct status=SUCCESS method=CreateAndGetProduct.testCreateAndGetP...)</span>
+                <span class="method-start">2684 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">2684 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.n26.tests.CreateAndVerifyProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">2824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndVerifyProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)</span>
+                <span class="method-start">2824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=testCreateAndVerifyProduct status=SUCCESS method=CreateAndVerifyProduct.testCreateA...)</span>
+                <span class="method-start">2866 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">2866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndVerifyProduct({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...)</span>
+                <span class="method-start">2866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=testCreateAndVerifyProduct status=SUCCESS method=CreateAndVerifyProduct.testCreateA...)</span>
+                <span class="method-start">2922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">2922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndVerifyProduct({Description=Construction App, Type=Construction, Image=https://www.n26.com/image3, Url=https://www....)</span>
+                <span class="method-start">2922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=testCreateAndVerifyProduct status=SUCCESS method=CreateAndVerifyProduct.testCreateA...)</span>
+                <span class="method-start">2966 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">2966 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndVerifyProduct({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image4, Url=https://www.n26.com, U...)</span>
+                <span class="method-start">2966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=testCreateAndVerifyProduct status=SUCCESS method=CreateAndVerifyProduct.testCreateA...)</span>
+                <span class="method-start">3010 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">3010 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.n26.tests.CreatePatchAndVerifyProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">3118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreatePatchAndVerifyProduct({NewModel=2013.0, NewManufacturer=N26, Upc=Example, NewType=Bankingx, Shipping=80.0, Name=Product1, ...)</span>
+                <span class="method-start">3118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=testCreatePatchAndVerifyProduct status=SUCCESS method=CreatePatchAndVerifyProduct.t...)</span>
+                <span class="method-start">3194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">3194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreatePatchAndVerifyProduct({NewModel=2013.0, NewManufacturer=N26, Upc=Example, NewType=Hotelx, Shipping=98.0, Name=Product2, Ne...)</span>
+                <span class="method-start">3194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=testCreatePatchAndVerifyProduct status=SUCCESS method=CreatePatchAndVerifyProduct.t...)</span>
+                <span class="method-start">3266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">3266 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.n26.tests.FailTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">3366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFailTestCase({Description=Banking APP, Type=Banking, Image=https://www.n26.com/image1, Url=https://www.n26.com, U...)</span>
+                <span class="method-start">3366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=testFailTestCase status=FAILURE method=FailTestCase.testFailTestCase(java.util.Hash...)</span>
+                <span class="method-start">3418 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">3422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFailTestCase({Description=Health App, Type=Health, Image=https://www.n26.com/image2, Url=https://www.n26.com, Upc...)</span>
+                <span class="method-start">3422 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=testFailTestCase status=SUCCESS method=FailTestCase.testFailTestCase(java.util.Hash...)</span>
+                <span class="method-start">3462 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">3462 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
